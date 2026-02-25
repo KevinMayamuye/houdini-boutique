@@ -63,7 +63,7 @@ mongoose.connect(MONGODB_URI, mongooseOptions)
       console.error('   - Node.js 22.x may have OpenSSL compatibility issues\n');
       console.error('2. Verify MongoDB Atlas connection string:');
       console.error('   - Should start with: mongodb+srv://');
-      console.error('   - Format: mongodb+srv://username:password@cluster.mongodb.net/database\n');
+      console.error('   - Format: amongodbconnection string\n');
       console.error('3. Check MongoDB Atlas Network Access:');
       console.error('   - Ensure your IP is whitelisted (or use 0.0.0.0/0 for development)\n');
       console.error('4. Try updating mongoose:');
